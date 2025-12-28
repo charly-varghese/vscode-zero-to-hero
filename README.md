@@ -30,4 +30,4 @@ BI-ready views, and fact–dimension modeling.
 Hands-on, module-based, production-minded learning.
 
 ## Author
-Varghese
+Charly Varghese
