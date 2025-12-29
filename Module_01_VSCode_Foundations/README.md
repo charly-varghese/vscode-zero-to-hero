@@ -1,17 +1,22 @@
-# 📘 Module 01 — VS Code Foundations
+# Module 01 – VS Code Foundations
 
-VS CODE MASTER PROGRAM – Pilot Edition V1.0
-📌 Module Status: COMPLETED ✅
-🧭 Module Objective
+**VS Code Master Program – Pilot Edition V1.0**
+**Module Status:** Completed ✅  
+**Program Track:** VS Code – Zero to Hero
 
-Module 01 establishes a rock-solid professional foundation for using Visual Studio Code as a full-fledged development environment.
-The focus is not just on editing code, but on building a production-ready workspace with correct environment setup, debugging capability, and reproducible configuration.
-This module prepares the learner to confidently move into advanced productivity, Git workflows, automation, and cloud-integrated development in later modules.
+## Module Objective
 
-🗂️ Workspace & Environment Setup
-📁 Workspace Root
-project_template/
-📁 Standard Folder Structure
+Module 01 establishes a **rock-solid professional foundation** for using Visual Studio Code as a full-fledged development environment.
+The focus is not limited to code editing. Instead, this module builds a **production-ready workspace** with correct environment setup, debugging capability, and reproducible configuration.
+This foundation enables the learner to confidently progress into advanced productivity workflows, Git integration, automation, analytics engineering, and cloud-integrated development in later modules.
+This module forms the **base layer** of the entire _VS Code – Zero to Hero_ program.
+
+## Workspace & Environment Setup
+
+### Workspace Root
+
+### Standard Folder Structure
+
 project_template/
 │
 ├── .vscode/
@@ -27,113 +32,136 @@ project_template/
 ├── venv/
 └── README.md
 
-✔ Purpose of Structure
-Ensures scalable project organization
-Separates notes, code, research, and projects
-Supports long-term multi-module learning
-Mirrors professional industry workflows
+### Purpose of the Structure
 
-🧪 Python Environment Configuration
-🔹 Virtual Environment
-Python Virtual Environment (venv) created inside workspace
-Prevents dependency conflicts
-Enables reproducible execution
+- Ensures scalable and maintainable project organization
+- Separates notes, code, research, and projects clearly
+- Supports long-term, multi-module learning
+- Mirrors real-world industry workflows
 
-🔹 Interpreter Configuration
-VS Code interpreter set to:
+---
+
+## Python Environment Configuration
+
+### Virtual Environment (venv)
+
+- Python virtual environment created inside the workspace
+- Prevents dependency conflicts
+- Enables reproducible execution across systems
+
+### Interpreter Configuration
+
+VS Code interpreter explicitly set to:
 venv/Scripts/python.exe
 
-🔹 Verified Using:
+### Verification Commands
+
 python --version
 where python
 
-📓 Jupyter Notebook Integration
-✔ Achievements
-Jupyter installed inside venv
-Kernel linked to VS Code
-Notebook execution inside workspace
-Markdown + LaTeX rendering enabled
-✔ Skills Covered
-Code cells vs Markdown cells
-Kernel selection
-Notebook execution flow
-Data inspection inside VS Code
+---
 
-🧩 VS Code Extensions Installed
-Core extensions used throughout Module 01:
-Python (Microsoft)
-Jupyter
-GitLens
-Prettier
-JSON (with Comments)
-SQL / Database tools (pre-installed for later modules)
-All extensions verified and tested inside the workspace.
+## Jupyter Notebook Integration
 
-🛠️ Debugging Configuration (Key Highlight of Module 01)
-📄 .vscode/launch.json
+### Achievements
+
+- Jupyter installed inside the virtual environment
+- Kernel linked correctly with VS Code
+- Notebook execution inside the workspace
+- Markdown and LaTeX rendering enabled
+
+### Skills Covered
+
+- Code cells vs Markdown cells
+- Kernel selection and switching
+- Notebook execution flow
+- Data inspection inside VS Code
+
+---
+
+## Core VS Code Extensions Installed
+
+The following extensions were installed, verified, and tested:
+
+- Python (Microsoft)
+- Jupyter
+- GitLens
+- Prettier
+- JSON (with Comments)
+- SQL / Database tools (installed early for later modules)
+
+Only **essential extensions** were added to avoid unnecessary complexity at the foundation stage.
+
+---
+
+## Debugging Configuration (Key Highlight of Module 01)
+
+### Debug Configuration File
+
+**`.vscode/launch.json`**
+
+```json
 {
-"version": "0.2.0",
-"configurations": [
-{
-"name": "Debug Mini Project",
-"type": "debugpy",
-"request": "launch",
-"program": "${workspaceFolder}/02_code/mini_debug_project.py",
-"console": "integratedTerminal",
-"justMyCode": true,
-"redirectOutput": true
-}
-]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Mini Project",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/02_code/mini_debug_project.py",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "redirectOutput": true
+    }
+  ]
 }
 
-✔ Debug Features Mastered
+### Debug Features Mastered
 Normal breakpoints
 Conditional breakpoints
 Logpoints
 Step Over / Step Into / Step Out
 Watch variables
 Call Stack inspection
-Exception handling (intentional error testing)
+Exception handling through intentional error testing
 Debug Console evaluation
 
-🧪 Mini Debug Project
-A consolidated Python mini-project was used to practice all debugging concepts in one place.
-✔ Project Covered:
+## Mini Debug Project
+A consolidated Python mini-project was used to practice all debugging concepts in a single workflow.
+
+### Concepts Covered
 Loops
 Functions
 Conditional logic
 Exception handling
 Debug flow analysis
-✔ Outcome:
-Ability to debug real-world Python logic confidently inside VS Code.
 
-📅 Module Coverage Summary
-Day Topic Status
-Day 1 VS Code Setup & Workspace ✅ Completed
-Day 2 Editor Skills & File Handling ✅ Completed
-Day 3 Jupyter + venv Integration ✅ Completed
-Day 4 Debugging (Beginner → Intermediate) ✅ Completed
+### Outcome
+Ability to debug real-world Python logic confidently inside Visual Studio Code.
 
-🎯 Skills Achieved After Module 01
+## Module Coverage Summary
+
+| Day | Topic                                    | Status       |
+|----:|------------------------------------------|--------------|
+| 1   | VS Code Setup & Workspace                | ✅ Completed |
+| 2   | Editor Skills & File Handling            | ✅ Completed |
+| 3   | Jupyter + Virtual Environment Integration| ✅ Completed |
+| 4   | Debugging (Beginner → Intermediate)      | ✅ Completed |
+
+## Skills Achieved After Module 01
 After completing this module, the learner can:
-Configure VS Code like a professional developer
-Maintain clean project structures
-Use virtual environments correctly
-Run Python and Jupyter workflows inside VS Code
-Debug Python applications step-by-step
-Understand and fix runtime errors confidently
-Use launch.json for repeatable debugging
-Work with VS Code as a long-term professional tool
+- Configure VS Code like a professional developer
+- Maintain clean and scalable project structures
+- Use Python virtual environments correctly
+- Run Python scripts and Jupyter notebooks inside VS Code
+- Debug Python applications step-by-step
+- Identify and fix runtime errors confidently
+- Use `launch.json` for repeatable debugging workflows
+- Treat VS Code as a long-term professional development platform
 
-🚀 Next Module
-▶ Module 02 — VS Code Navigation & Productivity Boost
-Focus areas:
-Command Palette mastery
-Fast file navigation
-Multi-cursor editing
-Search & refactor workflows
-Snippets & productivity tricks
-🏁 Final Note
-Module 01 is intentionally environment-heavy because a weak foundation leads to problems later.  
+## Final Note
+Module 01 is intentionally environment-heavy, because weak foundations create problems in later stages.
 With this module completed, all future learning becomes faster, cleaner, and more efficient.
-With this module completed, all future learning becomes faster, cleaner, and more efficient.
+This module completes the foundational layer of the *VS Code – Zero to Hero* journey.
+
+```
