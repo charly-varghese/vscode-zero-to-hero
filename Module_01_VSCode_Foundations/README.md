@@ -1,4 +1,5 @@
-📘 Module 01 — VS Code Foundations
+# 📘 Module 01 — VS Code Foundations
+
 VS CODE MASTER PROGRAM – Pilot Edition V1.0
 📌 Module Status: COMPLETED ✅
 🧭 Module Objective
@@ -14,7 +15,7 @@ project_template/
 project_template/
 │
 ├── .vscode/
-│   └── launch.json
+│ └── launch.json
 │
 ├── 01_notes/
 ├── 02_code/
@@ -71,18 +72,18 @@ All extensions verified and tested inside the workspace.
 🛠️ Debugging Configuration (Key Highlight of Module 01)
 📄 .vscode/launch.json
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Debug Mini Project",
-      "type": "debugpy",
-      "request": "launch",
-      "program": "${workspaceFolder}/02_code/mini_debug_project.py",
-      "console": "integratedTerminal",
-      "justMyCode": true,
-      "redirectOutput": true
-    }
-  ]
+"version": "0.2.0",
+"configurations": [
+{
+"name": "Debug Mini Project",
+"type": "debugpy",
+"request": "launch",
+"program": "${workspaceFolder}/02_code/mini_debug_project.py",
+"console": "integratedTerminal",
+"justMyCode": true,
+"redirectOutput": true
+}
+]
 }
 
 ✔ Debug Features Mastered
@@ -107,11 +108,11 @@ Debug flow analysis
 Ability to debug real-world Python logic confidently inside VS Code.
 
 📅 Module Coverage Summary
-Day	Topic	Status
-Day 1	VS Code Setup & Workspace	✅ Completed
-Day 2	Editor Skills & File Handling	✅ Completed
-Day 3	Jupyter + venv Integration	✅ Completed
-Day 4	Debugging (Beginner → Intermediate)	✅ Completed
+Day Topic Status
+Day 1 VS Code Setup & Workspace ✅ Completed
+Day 2 Editor Skills & File Handling ✅ Completed
+Day 3 Jupyter + venv Integration ✅ Completed
+Day 4 Debugging (Beginner → Intermediate) ✅ Completed
 
 🎯 Skills Achieved After Module 01
 After completing this module, the learner can:
