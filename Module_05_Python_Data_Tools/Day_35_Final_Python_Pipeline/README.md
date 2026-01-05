@@ -91,6 +91,7 @@ Output generation
 Saved the cleaned dataset as cleaned_sales_data.csv
 
 ▶️ How to Run the Project
+
 1️⃣ Create and activate a virtual environment
 python -m venv .venv
 .venv\Scripts\activate
